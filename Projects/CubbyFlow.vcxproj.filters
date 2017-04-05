@@ -183,6 +183,36 @@
     <ClInclude Include="..\Sources\BoundingBox\BoundingBox3.h">
       <Filter>BoundingBox</Filter>
     </ClInclude>
+    <ClInclude Include="..\Sources\Field\ConstantScalarField2.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Field\ConstantScalarField3.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Field\ConstantVectorField2.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Field\ConstantVectorField3.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Geometry\SurfaceSet2.h">
+      <Filter>Geomtery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Geometry\SurfaceSet3.h">
+      <Filter>Geomtery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Geometry\Sphere2.h">
+      <Filter>Geomtery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Geometry\Sphere3.h">
+      <Filter>Geomtery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Geometry\Triangle3.h">
+      <Filter>Geomtery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Geometry\TriangleMesh3.h">
+      <Filter>Geomtery</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Sources\Array\Array1.cpp">
@@ -278,29 +308,23 @@
     <ClCompile Include="..\Sources\Math\Quaternion.cpp">
       <Filter>Math</Filter>
     </ClCompile>
-    <ClCompile Include="..\Sources\Ray\Ray.cpp">
-      <Filter>Ray</Filter>
-    </ClCompile>
     <ClCompile Include="..\Sources\Ray\Ray2.cpp">
       <Filter>Ray</Filter>
     </ClCompile>
     <ClCompile Include="..\Sources\Ray\Ray3.cpp">
       <Filter>Ray</Filter>
     </ClCompile>
-    <ClCompile Include="Transform2.cpp">
-      <Filter>Transform</Filter>
+    <ClCompile Include="..\Sources\Field\ConstantScalarField2.cpp">
+      <Filter>Field</Filter>
     </ClCompile>
-    <ClCompile Include="BoundingBox.cpp">
-      <Filter>BoundingBox</Filter>
+    <ClCompile Include="..\Sources\Field\ConstantScalarField3.cpp">
+      <Filter>Field</Filter>
     </ClCompile>
-    <ClCompile Include="Transform3.cpp">
-      <Filter>Transform</Filter>
+    <ClCompile Include="..\Sources\Field\ConstantVectorField2.cpp">
+      <Filter>Field</Filter>
     </ClCompile>
-    <ClCompile Include="BoundingBox2.cpp">
-      <Filter>BoundingBox</Filter>
-    </ClCompile>
-    <ClCompile Include="BoundingBox3.cpp">
-      <Filter>BoundingBox</Filter>
+    <ClCompile Include="..\Sources\Field\ConstantVectorField3.cpp">
+      <Filter>Field</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

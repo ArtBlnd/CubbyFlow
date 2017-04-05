@@ -132,6 +132,10 @@
     <ClInclude Include="..\Sources\BoundingBox\BoundingBox.h" />
     <ClInclude Include="..\Sources\BoundingBox\BoundingBox2.h" />
     <ClInclude Include="..\Sources\BoundingBox\BoundingBox3.h" />
+    <ClInclude Include="..\Sources\Field\ConstantScalarField2.h" />
+    <ClInclude Include="..\Sources\Field\ConstantScalarField3.h" />
+    <ClInclude Include="..\Sources\Field\ConstantVectorField2.h" />
+    <ClInclude Include="..\Sources\Field\ConstantVectorField3.h" />
     <ClInclude Include="..\Sources\Field\CustomScalarField2.h" />
     <ClInclude Include="..\Sources\Field\CustomScalarField3.h" />
     <ClInclude Include="..\Sources\Field\CustomVectorField2.h" />
@@ -142,8 +146,14 @@
     <ClInclude Include="..\Sources\Field\ScalarField3.h" />
     <ClInclude Include="..\Sources\Field\VectorField2.h" />
     <ClInclude Include="..\Sources\Field\VectorField3.h" />
+    <ClInclude Include="..\Sources\Geometry\Sphere2.h" />
+    <ClInclude Include="..\Sources\Geometry\Sphere3.h" />
     <ClInclude Include="..\Sources\Geometry\Surface2.h" />
     <ClInclude Include="..\Sources\Geometry\Surface3.h" />
+    <ClInclude Include="..\Sources\Geometry\SurfaceSet2.h" />
+    <ClInclude Include="..\Sources\Geometry\SurfaceSet3.h" />
+    <ClInclude Include="..\Sources\Geometry\Triangle3.h" />
+    <ClInclude Include="..\Sources\Geometry\TriangleMesh3.h" />
     <ClInclude Include="..\Sources\Math\Quaternion.h" />
     <ClInclude Include="..\Sources\Matrix\Matrix.h" />
     <ClInclude Include="..\Sources\Matrix\Matrix2x2.h" />
@@ -177,6 +187,10 @@
     <ClCompile Include="..\Sources\Array\ArrayAccessor1.cpp" />
     <ClCompile Include="..\Sources\Array\ArrayAccessor2.cpp" />
     <ClCompile Include="..\Sources\Array\ArrayAccessor3.cpp" />
+    <ClCompile Include="..\Sources\Field\ConstantScalarField2.cpp" />
+    <ClCompile Include="..\Sources\Field\ConstantScalarField3.cpp" />
+    <ClCompile Include="..\Sources\Field\ConstantVectorField2.cpp" />
+    <ClCompile Include="..\Sources\Field\ConstantVectorField3.cpp" />
     <ClCompile Include="..\Sources\Field\CustomScalarField2.cpp" />
     <ClCompile Include="..\Sources\Field\CustomScalarField3.cpp" />
     <ClCompile Include="..\Sources\Field\CustomVectorField2.cpp" />
@@ -196,7 +210,6 @@
     <ClCompile Include="..\Sources\Point\Point.cpp" />
     <ClCompile Include="..\Sources\Point\Point2.cpp" />
     <ClCompile Include="..\Sources\Point\Point3.cpp" />
-    <ClCompile Include="..\Sources\Ray\Ray.cpp" />
     <ClCompile Include="..\Sources\Ray\Ray2.cpp" />
     <ClCompile Include="..\Sources\Ray\Ray3.cpp" />
     <ClCompile Include="..\Sources\Utils\MathUtils.cpp" />
