@@ -27,7 +27,7 @@ namespace CubbyFlow
 		Transform3();
 
 		//! Constructs a transform with translation and orientation.
-		Transform3(const Vector3D& translation, const QuaternionD& orientation);
+		Transform3(const Vector3D& translation, const QuaternionD& orzientation);
 
 		//! Returns the translation.
 		const Vector3D& Translation() const;

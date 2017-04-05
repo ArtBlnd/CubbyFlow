@@ -10,8 +10,4 @@
 
 namespace CubbyFlow
 {
-	Surface2::Surface2(const Transform2& transform = Transform2(), bool isNormalFlipped = false)
-	{
-
-	}
 }
